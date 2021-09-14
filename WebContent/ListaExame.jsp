@@ -21,7 +21,7 @@
 			<s:iterator value="listarExames">
 				<tr>
 					<td align="left" width="30%" height="20%"><s:property
-							value="nomePaciente" /></td>
+							value="nomePaciente" /></td> 
 
 					<td align="left" width="30%"><s:property value="nomeExame" /></td>
 
