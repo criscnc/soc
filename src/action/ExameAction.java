@@ -159,7 +159,7 @@ public class ExameAction extends ActionSupport {
 		}else {
 			if(dtObrigatoria == true) {
 				addActionError(getText("error.dtExame"));
-				retorno = "erro";
+				retorno = "erro"; 
 			}
 	    }
 		return retorno;
