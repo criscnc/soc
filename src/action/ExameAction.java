@@ -149,7 +149,7 @@ public class ExameAction extends ActionSupport {
 		if(!dtExame.isEmpty()){
 			Date dataFormatada = formatar.parse(getDtExame());
 			
-			if(dataFormatada.before(dtAtual)) {
+			if(dataFormatada.before(dtAtual) && dtObrigatoria == true) {
 				addActionError(getText("error.dtExameMenor"));
 				retorno = "erro";
 			}else {
