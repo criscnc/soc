@@ -167,7 +167,7 @@ public class ExameDao {
 						.prepareStatement("DELETE FROM DBO.EXAME WHERE NOMEPACIENTE = ? ");
 	
 				sql.setString(1, exame.getNomePaciente());
-				sql.executeQuery();
+				sql.executeUpdate();
 				
 				retorno = "excluido";
 			}
