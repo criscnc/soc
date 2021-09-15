@@ -195,7 +195,7 @@ public class ExameDao {
 		
 		try {
 			
-			String query = " SELECT NOMEPACIENTE, NOMEEXAME, DTEXAME, OBS FROM DBO.EXAME ORDER BY DTEXAME, NOMEPACIENTE ";
+			String query = " SELECT NOMEPACIENTE, NOMEEXAME, DTEXAME, OBS FROM DBO.EXAME ORDER BY NOMEPACIENTE, NOMEEXAME ";
 			PreparedStatement sql = conn.prepareStatement(query);
 			ResultSet rs = sql.executeQuery();
 			

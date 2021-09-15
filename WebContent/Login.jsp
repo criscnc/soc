@@ -10,7 +10,7 @@
 	<s:actionerror />
 	<s:form action="login.action" method="post">
 		<s:textfield name="usuario" key="label.usuario" size="20" />
-		<s:password name="senha" key="label.senha" size="21" />
+		<s:password name="senha" key="label.senha" size="20" />
 		<s:submit method="execute" key="label.login" />
 	</s:form>
 </body>
